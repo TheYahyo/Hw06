@@ -1,17 +1,3 @@
-// import axios from 'axios';
-
-// export const FETCH_POSTS = 'FETCH_POSTS';
-// export const SET_SEARCH_QUERY = 'SET_SEARCH_QUERY';
-
-// export const fetchPosts = () => async dispatch => {
-//   const response = await axios.get('https://jsonplaceholder.typicode.com/posts');
-//   dispatch({ type: FETCH_POSTS, payload: response.data });
-// };
-
-// export const setSearchQuery = query => ({
-//   type: SET_SEARCH_QUERY,
-//   payload: query
-// });
 
 import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';

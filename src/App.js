@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import { useDispatch } from 'react-redux';
 import { fetchPosts } from './pages/PostPages';
 import PostList from './components/PostList';
-import SearchBar from './components/PostItem';
+import PostItem from './components/PostItem';
 
 const App = () => {
   const dispatch = useDispatch();
@@ -13,7 +13,7 @@ const App = () => {
 
   return (
     <div>
-      <SearchBar />
+      <PostItem />
       <PostList />
     </div>
   );
